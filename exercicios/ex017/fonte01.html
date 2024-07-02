@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* Medidas Absolutas
+            cm, mm, in, px, pt (nao se recomenda), pc (nao se recomenda)
+
+            Medidas Relativas
+            em (medida relativa a altura do M maiusculo), ex, rem, vw, vh, %
+
+            Pelo W3C recomenda-se usar PX e EM
+            16px geralmente é = 1em
+            */ 
+
+            font-size: 1em;
+            font-weight: normal;
+            font-style: italic;
+            text-decoration: underline;
+        }
+
+        h1, h2 {
+            /*font-family: 'Times New Roman', Times, serif;
+            font-size: 3em;
+            font-weight: bolder;
+            font-style: Italic;
+            shorthand font
+            
+            -font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic bolder 3em Arial, Helvetica, sans-serif;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com outras fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui exercitationem natus veritatis asperiores, molestiae quidem corporis maxime laudantium a nam repudiandae nobis cum quia non nostrum porro? Provident, obcaecati delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius rerum, animi enim dicta eaque, ipsam praesentium quam ipsa odit, a perspiciatis! Saepe quasi dolores error harum voluptate fugit soluta ipsam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto quaerat saepe aliquid dolore consequatur debitis tempore itaque? Aspernatur optio nesciunt officia odio obcaecati quos, ex dignissimos aliquid, hic at eius.</p>
+    <h2>Subtitulo de exercicio</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores ducimus esse, distinctio veritatis molestias nihil eaque adipisci repudiandae beatae, labore tempora facere officia exercitationem cum consectetur. Assumenda et cupiditate harum?</p>
+</body>
+</html>
