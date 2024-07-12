@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            border: 2px solid black;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore magni non soluta corrupti a sequi veritatis, atque fugiat quasi obcaecati cumque harum perspiciatis similique quae officia recusandae. Impedit, consectetur natus.</p>
+
+    <ul>
+        <li><a href="pag001.html" target="frame">primeira pagina</a></li>
+        <li><a href="pag002.html" target="frame">segunda pagina</a></li>
+        <li><a href="pag003.html" target="frame">terceira pagina</a></li>
+    </ul>
+
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos pariatur quaerat delectus nam odit provident vero dolorem illum, aperiam ratione ab quo numquam! Distinctio doloremque, mollitia nemo corporis possimus ipsam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam distinctio tenetur perferendis vel delectus suscipit aspernatur cupiditate. Voluptatum, sunt? Veniam obcaecati laboriosam mollitia facere facilis autem iste ipsum quos cupiditate? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, sed reiciendis officia delectus, nulla autem minus natus illum a numquam accusantium libero excepturi neque voluptate voluptatem aut architecto iusto quibusdam!</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis suscipit asperiores sit nam beatae placeat amet eius dolore corrupti officiis. Ipsa nemo suscipit magnam eum ullam facilis omnis et accusamus?</p><img src='imagens/curso'>">
+        <p>Infelizmente seu navegador nao e compativel</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis suscipit asperiores sit nam beatae placeat amet eius dolore corrupti officiis. Ipsa nemo suscipit magnam eum ullam facilis omnis et accusamus?</p>
+</body>
+</html>
